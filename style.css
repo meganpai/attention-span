@@ -1,0 +1,34 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#content {
+  display: flex;
+}
+
+#time {
+  width: calc((100%-1px)/2);
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+#wall {
+  width: 1px;
+  height: 100vh;
+  background-color: black;
+}
+
+#space {
+  width: calc((100%-1px)/2);
+  height: 100vh;
+  overflow: scroll;
+}
+
+#text {
+  margin: 2rem 1rem;
+}
