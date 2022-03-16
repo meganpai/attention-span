@@ -9,7 +9,7 @@ body {
 }
 
 #time {
-  width: calc((100%-1px)/2);
+  width: calc((100% - 1px) / 2);
   height: 100vh;
   display: flex;
   justify-content: center;
@@ -24,7 +24,7 @@ body {
 }
 
 #space {
-  width: calc((100%-1px)/2);
+  width: calc((100% - 1px) / 2);
   height: 100vh;
   overflow: scroll;
 }
